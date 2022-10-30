@@ -1,0 +1,21 @@
+@model IEnumerable<NguyenQuynhAnhBTH2.Models.Person>
+    <p>
+        <a class="btn btn-succes" asp-action="Create">Create a new Person</a>
+    </p>
+    <table class="table table-all">
+        <tr>
+            <th>Person Id</th>
+            <th>Person Name</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.PersonID)</td>
+                <td>@Html.DisplayFor(m => item.PersonName)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PersonID">Sua</a>
+                    <a asp-action="Delete" asp-route-id="@item.PersonID">Xoa</a>
+                </td>
+            </tr>
+        }
+    </table>
