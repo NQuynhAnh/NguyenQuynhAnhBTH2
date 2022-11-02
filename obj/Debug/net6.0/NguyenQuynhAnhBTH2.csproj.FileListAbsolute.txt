@@ -283,3 +283,7 @@ E:\NetCore\NguyenQuynhAnhBTH2\obj\Debug\net6.0\refint\NguyenQuynhAnhBTH2.dll
 E:\NetCore\NguyenQuynhAnhBTH2\obj\Debug\net6.0\NguyenQuynhAnhBTH2.pdb
 E:\NetCore\NguyenQuynhAnhBTH2\obj\Debug\net6.0\NguyenQuynhAnhBTH2.genruntimeconfig.cache
 E:\NetCore\NguyenQuynhAnhBTH2\obj\Debug\net6.0\ref\NguyenQuynhAnhBTH2.dll
+E:\NetCore\NguyenQuynhAnhBTH2\bin\Debug\net6.0\EPPlus.dll
+E:\NetCore\NguyenQuynhAnhBTH2\bin\Debug\net6.0\EPPlus.Interfaces.dll
+E:\NetCore\NguyenQuynhAnhBTH2\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+E:\NetCore\NguyenQuynhAnhBTH2\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
