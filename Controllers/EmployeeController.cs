@@ -2,6 +2,8 @@ using NguyenQuynhAnhBTH2.Data;
 using NguyenQuynhAnhBTH2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using NguyenQuynhAnhBTH2.Models.Process;
+
 
 namespace NguyenQuynhAnh.Controllers
 {
@@ -10,6 +12,7 @@ namespace NguyenQuynhAnh.Controllers
     {
         //khai bao Dbcontext de lam viec voi database
         private readonly ApplicationDbContext _context;
+        private ExcelProcess _excelProcess = new ExcelProcess();
         public EmployeeController (ApplicationDbContext context)
         {
             _context = context;
@@ -19,7 +22,7 @@ namespace NguyenQuynhAnh.Controllers
         // GET: Employee
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Employees.ToListAsync());
+            return View(await _context.Employee.ToListAsync());
         }
 
         //Action trả về view thêm mới danh sách sinh viên
@@ -44,7 +47,7 @@ namespace NguyenQuynhAnh.Controllers
         //kiem tra ma sinh vien co ton tai khong
         private bool EmployeeExists (string id)
         {
-            return _context.Employees.Any(e => e.EmpID == id);
+            return _context.Employee.Any(e => e.EmpID == id);
         }
         
         //Tạo phương thức Edit kiểm tra xem “id” của sinh viên có tồn tại trong cơ sở dữ liệu không? Nếu có thì trả về view “Edit” cho phép người dùng chỉnh sửa thông tin của Sinh viên đó.​
@@ -56,7 +59,7 @@ namespace NguyenQuynhAnh.Controllers
                 return View("NotFound");
             }
 
-            var Employee = await _context.Employees.FindAsync(id);
+            var Employee = await _context.Employee.FindAsync(id);
             if (Employee == null)
             {
                 return View("NotFound");
@@ -106,7 +109,7 @@ namespace NguyenQuynhAnh.Controllers
                 return View("NotFound");
             }
 
-            var std = await _context.Employees.FirstOrDefaultAsync(m => m.EmpID == id);
+            var std = await _context.Employee.FirstOrDefaultAsync(m => m.EmpID == id);
             if (std == null)
             {
                 return View("NotFound");
@@ -121,8 +124,8 @@ namespace NguyenQuynhAnh.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var std = await _context.Employees.FindAsync(id);
-            _context.Employees.Remove(std);
+            var std = await _context.Employee.FindAsync(id);
+            _context.Employee.Remove(std);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -136,26 +139,10 @@ namespace NguyenQuynhAnh.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Upload(IFormFile file)
         {
-            if (file != null)
-            {
-                string fileExtension = Path.GetExtenstion(file.FileName);
-                if(fileExtension != ".xls" && fileExtension != ".xlsx")
-                {
-                    ModelState.AddModelError("", "Please choose excel file to upload!");
-                }
-                else
-                {
-                    //rename file when upload to server
-                    var fileNam = DataTime.Now.ToShortTimeString() + fileExtension;
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory() + "/Uploads/Excels", fileName);
-                    var fileLocation = new FileInfo(filePath).ToString();
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        //save file to sever
-                        await file.CopyToAsync(stream);
-                    }
-                }
-                return View();
+            
+            return View();
+            
+        }
             }
         }
     }

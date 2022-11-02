@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "e:\\NetCore\\NguyenQuynhAnhBTH2\\Views\\Employee\\Upload.cshtml",
+      "TargetPath": "Views\\Employee\\Upload.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "e:\\NetCore\\NguyenQuynhAnhBTH2\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
