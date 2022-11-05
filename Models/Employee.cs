@@ -4,5 +4,6 @@ namespace NguyenQuynhAnhBTH2.Models
     {
         public string EmployeeID { get; set; }
         public string EmployeeName { get; set; }
+        public string EmployeeAdderss { get; set; }
     }
 }

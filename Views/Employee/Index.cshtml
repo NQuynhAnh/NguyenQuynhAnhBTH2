@@ -1,21 +1,40 @@
 @model IEnumerable<NguyenQuynhAnhBTH2.Models.Employee>
-    <p>
-        <a class="btn btn-succes" asp-action="Create">Create a new Employee</a>
-    </p>
-    <table class="table table-all">
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
         <tr>
-            <th>Employee Id</th>
-            <th>Employee Name</th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeAdderss)
+            </th>
+            <th></th>
         </tr>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@Html.DisplayFor(m => item.EmployeeID)</td>
-                <td>@Html.DisplayFor(m => item.EmployeeName)</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.EmployeeID">Sua</a>
-                    <a asp-action="Delete" asp-route-id="@item.EmployeeID">Xoa</a>
+    </thead>
+    <tbody>
+@foreach (var item in Model){
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.EmployeeAdderss)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EmployeeID">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.EmployeeID">Details</a>
+                <a asp-action="Details" asp-route-id="@item.EmployeeID">Delete</a>
                 </td>
             </tr>
-        }
-    </table>
+}
+    </tbody>
+</table>
