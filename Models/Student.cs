@@ -4,5 +4,6 @@ namespace NguyenQuynhAnhBTH2.Models
     {
         public string StudentID { get; set; }
         public string StudentName { get; set; }
+        public string StudentAddress { get; set; }
     }
 }

@@ -4,5 +4,6 @@ namespace NguyenQuynhAnhBTH2.Models
     {
         public string CustomerID { get; set; }
         public string CustomerName { get; set; }
+        public string CustomerAddress { get; set; }
     }
 }

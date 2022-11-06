@@ -14,5 +14,8 @@ namespace NguyenQuynhAnhBTH2.Data
         public DbSet<Customer> Customers { get; set; }
 
         public DbSet<NguyenQuynhAnhBTH2.Models.Employee> Employee { get; set; }
+        public DbSet<NguyenQuynhAnhBTH2.Models.Student> Student { get; set; }
+        public DbSet<NguyenQuynhAnhBTH2.Models.Customer> Customer { get; set; }
+        public DbSet<NguyenQuynhAnhBTH2.Models.Person> Person { get; set; }
     }
 }
