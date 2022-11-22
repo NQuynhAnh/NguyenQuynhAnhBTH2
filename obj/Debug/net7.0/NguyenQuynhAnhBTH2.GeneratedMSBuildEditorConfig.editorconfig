@@ -9,77 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NguyenQuynhAnhBTH2
 build_property.RootNamespace = NguyenQuynhAnhBTH2
-build_property.ProjectDir = e:\DotNet\NguyenQuynhAnhBTH2\
+build_property.ProjectDir = E:\DotNet\NguyenQuynhAnhBTh2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = e:\DotNet\NguyenQuynhAnhBTH2
+build_property.MSBuildProjectDirectory = E:\DotNet\NguyenQuynhAnhBTh2
 build_property._RazorSourceGeneratorDebug = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Faculty/Create.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Employee/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Faculty/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Faculty/Delete.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Faculty/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Faculty/Details.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Faculty/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Faculty/Edit.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Faculty/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Faculty/Index.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Faculty/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdWx0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Home/Index.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Home/Privacy.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Shared/Error.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Shared/NotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Student/Create.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Student/Delete.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Student/Details.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Student/Edit.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Student/Index.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/_ViewImports.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/_ViewStart.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[e:/DotNet/NguyenQuynhAnhBTH2/Views/Shared/_Layout.cshtml]
+[E:/DotNet/NguyenQuynhAnhBTh2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nea1bjpmgb

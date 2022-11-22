@@ -302,3 +302,7 @@ E:\DotNet\NguyenQuynhAnhBTH2\obj\Debug\net7.0\refint\NguyenQuynhAnhBTH2.dll
 E:\DotNet\NguyenQuynhAnhBTH2\obj\Debug\net7.0\NguyenQuynhAnhBTH2.pdb
 E:\DotNet\NguyenQuynhAnhBTH2\obj\Debug\net7.0\NguyenQuynhAnhBTH2.genruntimeconfig.cache
 E:\DotNet\NguyenQuynhAnhBTH2\obj\Debug\net7.0\ref\NguyenQuynhAnhBTH2.dll
+E:\DotNet\NguyenQuynhAnhBTH2\bin\Debug\net7.0\EPPlus.dll
+E:\DotNet\NguyenQuynhAnhBTH2\bin\Debug\net7.0\EPPlus.Interfaces.dll
+E:\DotNet\NguyenQuynhAnhBTH2\bin\Debug\net7.0\EPPlus.System.Drawing.dll
+E:\DotNet\NguyenQuynhAnhBTH2\bin\Debug\net7.0\Microsoft.IO.RecyclableMemoryStream.dll
